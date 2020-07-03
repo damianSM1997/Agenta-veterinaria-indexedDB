@@ -1,0 +1,53 @@
+html {
+    min-height: 100%;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* fallback for old browsers 
+    background: #000428;
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  
+background: linear-gradient(to right, #004e92, #000428); 
+  */
+}
+
+.container {
+    background-color: white;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+header h1 {
+    color: white;
+}
+
+.lista-citas .media {
+    border-bottom: 1px solid #e1e1e1;
+    padding-bottom: 3rem;
+}
+
+.lista-citas .media-body p {
+    margin: 0;
+}
+
+.lista-citas .media-body button {
+    margin-top: 1rem!important;
+}
+
+.lista-citas .media-body span {
+    font-weight: bold;
+}
+
+textarea {
+    height: 200px!important;
+}
